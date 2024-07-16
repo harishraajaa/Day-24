@@ -1,6 +1,6 @@
 import React from 'react'
 import Sidebar from './Components/SideBar'
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import {BrowserRouter,Routes,Route,Navigate} from 'react-router-dom'
 import Fsd from './Components/Fsd'
 import Home from './Components/Home'
 import Ds from './Components/Ds'
@@ -18,6 +18,7 @@ function App() {
         <Route path='/ds' element={<Ds/>}></Route>
         <Route path='/ai-ml' element={<Aiml/>}></Route>
         <Route path='/cyber' element={<Cyber/>}></Route>
+        <Route path='*' element={<Navigate to='/home' />}></Route>
       </Routes>
       </BrowserRouter>
       
