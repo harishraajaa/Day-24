@@ -7,6 +7,8 @@ Deployed URL:
 
 Comments: Screenshot given in the Task doc is different as per the provided URL. So condidered the new UI of Guvi Blog to acheive the React Router concept.
 
+![alt text](image.png)
+
 Components created:
 1. Fsd.jsx
 2. Ds.jsx
