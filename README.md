@@ -2,7 +2,7 @@
 
 Task Q : The objective of this task is to create a web page with routes using react-router-dom. The design of the page should be based on the following URL: https://www.guvi.in/blog/
 
-Deployed URL: 
+Deployed URL: https://guviblog-harishcorp.netlify.app/
 
 
 Comments: Screenshot given in the Task doc is different as per the provided URL. So condidered the new UI of Guvi Blog to acheive the React Router concept.
